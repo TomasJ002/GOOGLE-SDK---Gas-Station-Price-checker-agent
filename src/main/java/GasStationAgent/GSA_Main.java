@@ -22,7 +22,6 @@ public class GSA_Main {
 
     public static void main(String[] args) throws Exception {
         Dotenv dotenv= Dotenv.configure()
-                .directory("C:/Users/Tomáš/Desktop/Codes/Agents/personal/GasStationPriceChecker/")
                 .load();
 
         LlmAgent gasStationPricesChecker = LlmAgent.builder()
